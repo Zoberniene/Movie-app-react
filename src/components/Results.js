@@ -30,11 +30,11 @@ const Results = () => {
   }, [searchValue]);
 
   return (
-    <React.Fragment>
+    <div>
       <Heading heading="Movies" />
       <Search searchValue={searchValue} setSearchValue={setSearchValue} />
       <Film movies={movies} />
-    </React.Fragment>
+    </div>
   );
 };
 
